@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 375px) {
+      .navbar ul li a{
+   	     padding: 8px 0 !important;
+   }
+        .newsletter{
+	    width: 100%;
+}
+    footer p{
+    	text-align: center;
+    	margin-bottom: 15px;
+    }
+    .social ul{
+    	justify-content: center !important;
+    }
+    .social ul li:last-child{
+	margin-right: 10px;
+}
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 376px) and (max-width: 575.98px) {
+     .navbar ul li a{
+   	     padding: 8px 0 !important;
+   }
+        .newsletter{
+	    width: 90%;
+}
+    footer p{
+    	text-align: center;
+    	margin-bottom: 15px;
+    }
+    .social ul{
+    	justify-content: center !important;
+    }
+    .social ul li:last-child{
+	margin-right: 10px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar ul li a{
+   	     padding: 8px 0 !important;
+}
+    .newsletter{
+	    width: 76%;
+}
+    footer p{
+    	text-align: center;
+    	margin-bottom: 15px;
+    }
+    .social ul{
+    	justify-content: center !important;
+    }
+    .social ul li:last-child{
+	margin-right: 10px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .navbar ul li a{
+   	     padding: 8px 0 !important;
+   }
+       .newsletter{
+	    width: 56%;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .newsletter{
+	width: 40%;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
